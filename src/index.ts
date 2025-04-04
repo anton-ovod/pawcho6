@@ -17,7 +17,7 @@ const getServerIP = (): string => {
       }
     }
   }
-  return "Unknown IP Address";
+  return "Unknown";
 };
 
 app.get("/", (req: Request, res: Response) => {
